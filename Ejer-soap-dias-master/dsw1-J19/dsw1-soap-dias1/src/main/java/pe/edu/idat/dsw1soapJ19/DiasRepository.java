@@ -23,7 +23,7 @@ public class DiasRepository {
 
 		Dia martes = new Dia();
 		martes.setName("martes");
-		martes.setTraduccion("friday");
+		martes.setTraduccion("tuesday");
 		dias.put(martes.getName(), martes);
 
 		Dia sabado = new Dia();
