@@ -16,7 +16,8 @@ import org.springframework.xml.xsd.XsdSchema;
 @Configuration
 public class WebServiceConfig extends WsConfigurerAdapter {
 	@Bean
-	public ServletRegistrationBean<MessageDispatcherServlet> messageDispatcherServlet(ApplicationContext applicationContext) {
+	public ServletRegistrationBean<MessageDispatcherServlet> messageDispatcherServlet(
+			ApplicationContext applicationContext) {
 		MessageDispatcherServlet servlet = new MessageDispatcherServlet();
 		servlet.setApplicationContext(applicationContext);
 		servlet.setTransformWsdlLocations(true);
@@ -35,6 +36,6 @@ public class WebServiceConfig extends WsConfigurerAdapter {
 
 	@Bean
 	public XsdSchema countriesSchema() {
-		return new SimpleXsdSchema(new ClassPathResource("countries.xsd"));
+		return new SimpleXsdSchema(new ClassPathResource("dias.xsd"));
 	}
 }

@@ -1,29 +1,19 @@
 
 
-POST http://localhost:8080/ws
+POST http://localhost:8080/wsec1e1
+Content-Type: text/xml
 
 <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:gs="http://spring.io/guides/gs-producing-web-service">
    <soapenv:Header/>
    <soapenv:Body>
-      <gs:getCountryRequest>
-         <gs:name>Spain</gs:name>
-      </gs:getCountryRequest>
+      <gs:getDiasRequest>
+         <gs:name>domingo</gs:name>
+      </gs:getDiasRequest>
    </soapenv:Body>
 </soapenv:Envelope>
 
 
-###
 
-POST http://localhost:8080/ws
-
-<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:gs="http://spring.io/guides/gs-producing-web-service">
-   <soapenv:Header/>
-   <soapenv:Body>
-      <gs:getCountryRequest>
-         <gs:name>Peru</gs:name>
-      </gs:getCountryRequest>
-   </soapenv:Body>
-</soapenv:Envelope>
 
 
 

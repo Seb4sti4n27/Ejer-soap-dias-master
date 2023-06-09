@@ -14,7 +14,8 @@ public class ConsumingWebServiceApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(ConsumingWebServiceApplication.class, args);
 	}
-	//sapee
+
+	// sapee
 	@Bean
 	CommandLineRunner lookup(CountryClient quoteClient) {
 		return args -> {
