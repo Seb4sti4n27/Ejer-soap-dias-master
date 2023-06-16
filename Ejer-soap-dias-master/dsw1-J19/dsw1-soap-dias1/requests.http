@@ -7,7 +7,7 @@ Content-Type: text/xml
    <soapenv:Header/>
    <soapenv:Body>
       <gs:getDiasRequest>
-         <gs:name>domingo</gs:name>
+         <gs:name>lunes</gs:name>
       </gs:getDiasRequest>
    </soapenv:Body>
 </soapenv:Envelope>

@@ -1,0 +1,8 @@
+com\example\consumingwebservice\ConsumingWebServiceApplication.class
+com\example\consumingwebservice\wsdl\Dia.class
+com\example\consumingwebservice\DiasClient.class
+com\example\consumingwebservice\DiasConfiguration.class
+com\example\consumingwebservice\wsdl\package-info.class
+com\example\consumingwebservice\wsdl\GetDiasResponse.class
+com\example\consumingwebservice\wsdl\ObjectFactory.class
+com\example\consumingwebservice\wsdl\GetDiasRequest.class
