@@ -1,5 +1,6 @@
 package pe.edu.idat.dsw1soapJ19;
 
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.ws.server.endpoint.annotation.Endpoint;
 import org.springframework.ws.server.endpoint.annotation.PayloadRoot;
@@ -15,7 +16,7 @@ public class DiasEndPoint {
 	private static final String NAMESPACE_URI = "http://spring.io/guides/gs-producing-web-service";
 
 	private DiasRepository diasRepository;
-
+	
 	@Autowired
 	public DiasEndPoint(DiasRepository diasRepository) {
 		this.diasRepository = diasRepository;
